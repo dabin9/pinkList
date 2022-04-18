@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>metamong helper🙏</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/custom.js" defer></script>
+    <script src="js/clock.js" defer></script>
+    <script src="js/greetings.js" defer></script>
+    <script src="js/todolist.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="zone">
+            <div class="left-wrap">
+                <div class="clock-wrap">
+                    <p><span class="img">🕰</span>현재 시간</p>
+                    <div class="clock"></div>
+                    <p class="data"></p>
+                </div>
+                <div class="other">
+                    <div class="login-wrap">
+                        <h1 id="greeting" class="hidden"></h1>
+                        <button type="button" id="log_out" class="hidden">로그아웃하기</button>
+                        <form action="" id="login-form">
+                            <input required maxlength="15" type="text" placeholder="이름을 적어주세요">
+                            <input type="submit" value="로그인">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="right-wrap">
+                <div class="inner">
+                    <div class="box">
+                        <p>to do list</p>
+                        <input type="text" class="inputBox" placeholder="글을 클릭하면 삭제!">
+                        <button class="plus">+</button>
+                        <div class="list"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

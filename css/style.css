@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'ACCchildrenheartOTF-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112-2@1.0/ACCchildrenheartOTF-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: 'ACCchildrenheartOTF-Regular';
+}
+.zone{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    text-align: center;
+    height: 95vh;
+}
+.left-wrap{
+    flex: 1;
+    height: 100%;
+}
+.clock-wrap {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.clock-wrap > p {
+    display: block;
+    margin: 10px 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.clock-wrap .img {
+    color: rgb(105, 66, 66);
+    margin-left: 3px;
+    font-size: 39px;
+    margin-bottom: 13px;
+}
+.clock-wrap > div {
+    display: block;
+    margin: 10px 0;
+    font-size: 100px;
+}
+.clock-wrap .data {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    font-size: 28px;
+    justify-content: center;
+    align-items: center;
+}
+.clock-wrap > ul > li + li{
+    margin-left: 15px;
+}
+.other{
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+#log_out{
+    margin-top: 10px;
+}
+#login-form {
+    font-size: 50px;
+}
+
+.right-wrap{
+    flex: 1;
+    background-color: rgb(221, 155, 177);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+}
+.right-wrap .inner {
+    background-color: wheat;
+    width: 60%;
+}
+.right-wrap .inner .box {
+    width: 100%;
+}
+.right-wrap .inner .box p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.right-wrap .inner .box input {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: none;
+    position: relative;
+}
+.hidden{
+    display: none;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+}
